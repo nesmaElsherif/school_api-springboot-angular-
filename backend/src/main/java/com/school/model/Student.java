@@ -3,6 +3,11 @@ package com.school.model;
 import com.school.model.enums.Gender;
 
 import java.util.Date;
+import javax.persistence.*;
+
+import org.hibernate.annotations.CreationTimestamp;
+import org.hibernate.annotations.UpdateTimestamp;
+import javax.persistence.*;
 
 @Entity(name="student")
 public class Student {
@@ -31,6 +36,7 @@ public class Student {
     @Column(name = "date_updated")
     private Date dateUpdated;
 
+    @Enumerated(EnumType.STRING)
     @Column(name="gender")
     private Gender gender;
 

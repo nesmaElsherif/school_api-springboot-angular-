@@ -1,0 +1,3 @@
+com\school\model\Student.class
+com\school\model\StudentSystemApplication.class
+com\school\model\enums\Gender.class
