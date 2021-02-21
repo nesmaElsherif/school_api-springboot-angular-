@@ -1,14 +1,17 @@
 package com.school.model;
 
-import com.school.model.enums.Gender;
+import com.school.enums.Gender;
 
 import java.util.Date;
 import javax.persistence.*;
-
+import lombok.*;
 import org.hibernate.annotations.CreationTimestamp;
 import org.hibernate.annotations.UpdateTimestamp;
-import javax.persistence.*;
 
+@Getter
+@Setter
+@NoArgsConstructor
+@AllArgsConstructor
 @Entity(name="student")
 public class Student {
     @Id

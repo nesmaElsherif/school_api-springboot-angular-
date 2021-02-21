@@ -1,3 +1,10 @@
-com\school\model\Student.class
-com\school\model\StudentSystemApplication.class
+com\school\model\dao\StudentRepository.class
+com\school\model\exception\BadRequestException.class
+com\school\model\Task.class
 com\school\model\enums\Gender.class
+com\school\model\Student.class
+com\school\model\exception\TaskNotFoundException.class
+com\school\model\StudentSystemApplication.class
+com\school\model\dao\TaskRepository.class
+com\school\model\TaskService.class
+com\school\model\TaskController.class

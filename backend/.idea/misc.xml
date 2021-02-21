@@ -6,6 +6,7 @@
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/../../api-StudentSystem-spring-angular-/back-end/pom.xml" />
+        <option value="$PROJECT_DIR$/../../spring-boot-example/pom.xml" />
       </list>
     </option>
   </component>
